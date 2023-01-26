@@ -57,6 +57,12 @@ body {
 .nav-link:focus {
   color: var(--active-accent-color);
 }
+.studio {
+  color: var(--active-accent-color);
+}
+.portfolio {
+  color: var(--active-accent-color);
+}
 /* Contacts */
 /* .contacts {
 } */
@@ -232,13 +238,19 @@ body {
   color: var(--accent-color);
   background-color: var(--background-button-color);
   cursor: pointer;
+  border: 1px solid var(--background-button-color);
+  border-radius: 4px;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--active-accent-color);
 }
-
+.all {
+  color: var(--primary-white-color);
+  background-color: var(--active-accent-color);
+}
 /* Examples */
 /*  
 .examples-title {
@@ -248,9 +260,10 @@ body {
 
 .examples-list {
 }
-
+*/
 .examples-link {
-} */
+  display: block;
+}
 .examples-link:hover,
 .examples-link:focus {
 }
